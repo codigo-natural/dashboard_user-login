@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "admin",
+      "author": "password"
+    },
+    {
+      "username": "admin",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "rancio",
+      "password": "admin",
+      "id": 3
+    },
+    {
+      "username": "rancio2",
+      "password": "qwertyui",
+      "id": 4
+    }
+  ]
+}
