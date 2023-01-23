@@ -5,26 +5,63 @@
   padding: 0;
   outline: none;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f8f9fa;
+}
 .container {
-  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
   height: 100vh;
 }
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
 .form-title {
+  grid-column: 1/-1;
   text-align: center;
-  font-size: 2rem;
   margin-bottom: 2rem;
+  font-size: 2rem;
 }
+
 .form-control {
-  width: 100%;
+  border: none;
+  background-color: transparent;
   padding: 0.5rem;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  border-radius: 0.2rem;
+  font-size: 1rem;
+  width: 100%;
+  transition: all 0.3s ease;
 }
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(15, 239, 168);
+}
+
+.form-button {
+  background: linear-gradient(to right, #007bff, #0069d9);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  margin-top: 2em;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* add a modern error message style */
 .form-error {
   width: 100%;
   margin-top: 1rem;
@@ -33,33 +70,40 @@
   background-color: #ff0000;
   color: #fff;
   text-align: center;
-}
-.form-group {
-  position: relative;
-}
-.form-group label {
-  font-weight: 600;
-}
-.form-group input {
-  padding: 8px;
-  font-weight: 300;
-  margin-top: 8px;
   border-radius: 5px;
-  border: 1px solid rgb(38, 44, 42);
+  transition: all 0.3s ease;
 }
-.form-group input:focus-within {
-  border: 1px solid rgb(15, 239, 168);
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
-.form-button {
-  width: 100%;
+
+/* add a modern label style */
+.form-group label {
+  text-align: start;
+  top: 1rem;
+  left: -15rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: gray;
+  transition: all 0.3s ease;
+}
+
+/* add a modern input style */
+.form-group input {
   padding: 1rem;
-  font-size: 1.2rem;
-  background-color: #356b55;
-  color: #fff;
-  border: none;
-  border-radius: 0.2rem;
-  cursor: pointer;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgb(15, 239, 168);
+  transition: all 0.3s ease;
 }
-.form-button:hover {
-  background-color: #224839;
+
+/* add media queries to adjust the form layout on different screen sizes */
+
+@media (max-width: 768px) {
+  .form-container {
+    grid-template-columns: 1fr;
+  }
 }

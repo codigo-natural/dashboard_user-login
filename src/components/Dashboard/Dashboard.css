@@ -15,6 +15,19 @@ p {
   text-align: center;
   font-size: 1.4em;
 }
+ul {
+  list-style: none;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-bottom: 10px;
+}
+
+li {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
 
 header {
   background-color: #fff;
@@ -26,15 +39,10 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
   background-color: #fff;
   margin: 0.5em 20px 0 20px;
   padding: 1em;
-}
-main nav {
-  display: grid;
-  grid-column-gap: 20px;
-  grid-gap: 20px;
-  column-gap: 20px;
 }
 
 nav p {
@@ -50,18 +58,4 @@ section ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-}
-
-ul {
-  list-style: none;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 0px 10px #ccc;
-  margin-bottom: 10px;
-}
-
-li {
-  color: #666;
-  font-size: 1.2em;
-  margin-bottom: 10px;
 }

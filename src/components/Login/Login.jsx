@@ -45,7 +45,7 @@ function Login() {
         <h1>Iniciar sesión</h1>
         <div className='form-group'>
           <label>
-            Nobre de usuario:
+            usuario:
           </label>
           <input
             className='form-control'
@@ -72,7 +72,7 @@ function Login() {
         <div className='form-group'>
           <button className='form-button' type="submit">Iniciar sesión</button>
         </div>
-        {error && <div>{error}</div>}
+        {error && <div className='form-error'>{error}</div>}
       </form>
     </div>
   );
