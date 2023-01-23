@@ -6,7 +6,7 @@
   outline: none;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
 }
 .container {
@@ -61,7 +61,7 @@ body {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* add a modern error message style */
+/* Diseño del mensage de error */
 .form-error {
   width: 100%;
   margin-top: 1rem;
@@ -74,12 +74,12 @@ body {
   transition: all 0.3s ease;
 }
 
+/* Diseño del label */
+
 .form-group {
   display: flex;
   flex-direction: column;
 }
-
-/* add a modern label style */
 .form-group label {
   text-align: start;
   top: 1rem;
@@ -90,7 +90,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* add a modern input style */
+/* Diseño del input */
 .form-group input {
   padding: 1rem;
   font-weight: 300;
@@ -100,7 +100,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* add media queries to adjust the form layout on different screen sizes */
+/* Diseño para dispositivos pequeños */
 
 @media (max-width: 768px) {
   .form-container {
