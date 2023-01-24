@@ -2,68 +2,43 @@
   "users": [
     {
       "id": 1,
-      "title": "admin",
-      "author": "password"
-    },
-    {
       "username": "admin",
-      "password": "12345",
-      "id": 2
+      "password": "password"
     },
     {
-      "username": "rancio",
-      "password": "admin",
-      "id": 3
+      "id": 2,
+      "username": "admin 1",
+      "password": "12345"
     },
     {
-      "username": "rancio2",
-      "password": "qwertyui",
+      "id": 3,
+      "username": "user 1",
+      "password": "4y785yg4b"
+    },
+    {
+      "id": 2,
+      "username": "admin 2",
+      "password": "kjdhui33"
+    },
+    {
+      "id": 3,
+      "username": "user 2",
+      "password": "4y785nyg4b"
+    },
+    {
+      "id": 2,
+      "username": "admin 3",
+      "password": "12345"
+    },
+    {
+      "id": 3,
+      "username": "user 3",
+      "password": "jjkjk4o39"
+    },
+    {
+      "username": "constanza suarez",
+      "password": "8548hkjbkj5h44",
       "id": 4
-    },
-    {
-      "username": "abcde",
-      "password": "qwerth",
-      "id": 5
-    },
-    {
-      "username": "rancio9",
-      "password": "qwerty",
-      "id": 6
-    },
-    {
-      "username": "ana",
-      "password": "qyefdy",
-      "id": 7
-    },
-    {
-      "username": "djkhfjg",
-      "password": ",jbvn",
-      "id": 8
-    },
-    {
-      "username": "casemiro",
-      "password": "dasfdadhgsf",
-      "id": 9
-    },
-    {
-      "username": "juana guaviare",
-      "password": "kljhkgjvfyudgui",
-      "id": 10
-    },
-    {
-      "username": "rancio camelo",
-      "password": "asdfghjkl09876",
-      "id": 11
-    },
-    {
-      "username": "rancio moreno",
-      "password": "jqghfet73i84u",
-      "id": 12
-    },
-    {
-      "username": "monumento fenomenal",
-      "password": "gfu789y43543w",
-      "id": 13
     }
   ]
 }
